@@ -29,7 +29,7 @@ public class ProductController {
 
         if(products.isEmpty()) throw new ProductNotFoundException("Aucun produit n'est disponible à la vente");
 
-        List<Product> listeLimitee = products.subList(0, configProps.getLimiteDeProduits());
+        List<Product> listeLimitee = products.subList(0, configProps.getLimitDeProduits());
         return listeLimitee;
 
     }

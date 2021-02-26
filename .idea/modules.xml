@@ -9,6 +9,7 @@
       <module fileurl="file://$PROJECT_DIR$/.idea/mcommerce.iml" filepath="$PROJECT_DIR$/.idea/mcommerce.iml" />
       <module fileurl="file://$PROJECT_DIR$/microservice-paiement/mpaiement.iml" filepath="$PROJECT_DIR$/microservice-paiement/mpaiement.iml" />
       <module fileurl="file://$PROJECT_DIR$/microservice-produits/mproduits.iml" filepath="$PROJECT_DIR$/microservice-produits/mproduits.iml" />
+      <module fileurl="file://$PROJECT_DIR$/server-config-repo/server-config-repo.iml" filepath="$PROJECT_DIR$/server-config-repo/server-config-repo.iml" />
     </modules>
   </component>
 </project>

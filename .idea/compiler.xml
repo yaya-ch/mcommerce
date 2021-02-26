@@ -19,6 +19,11 @@
       <module name="mcommandes" target="1.8" />
       <module name="mpaiement" target="1.8" />
       <module name="mproduits" target="1.8" />
+      <module name="wrapper (1)" target="1.5" />
+      <module name="wrapper (2)" target="1.5" />
+      <module name="wrapper (3)" target="1.5" />
+      <module name="wrapper (4)" target="1.5" />
+      <module name="wrapper (5)" target="1.5" />
     </bytecodeTargetLevel>
   </component>
   <component name="JavacSettings">
