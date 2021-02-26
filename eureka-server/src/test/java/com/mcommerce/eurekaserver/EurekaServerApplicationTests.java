@@ -1,10 +1,10 @@
-package com.clientui.clientui;
+package com.mcommerce.eurekaserver;
 
-import org.junit.Test;
+import org.junit.jupiter.api.Test;
 import org.springframework.boot.test.context.SpringBootTest;
 
 @SpringBootTest
-class ClientuiApplicationTests {
+class EurekaServerApplicationTests {
 
 	@Test
 	void contextLoads() {
