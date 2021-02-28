@@ -7,12 +7,12 @@ import org.springframework.web.bind.annotation.PathVariable;
 import org.springframework.web.bind.annotation.PostMapping;
 import org.springframework.web.bind.annotation.RequestBody;
 
-@FeignClient(name = "microservice-commandes", url = "localhost:9002")
+@FeignClient(name = "zuul-server")
 public interface MicroServiceCommandeProxy {
 
-    @PostMapping(value = "/commandes")
+    @PostMapping(value = "/microservice-commandes/commandes")
     CommandeBean ajouterCommande(@RequestBody CommandeBean commande);
 
-    @GetMapping(value = "/commandes/{id}")
+    @GetMapping(value = "/microservice-commandes/commandes/{id}")
     CommandeBean recupererUneCommande(@PathVariable("id") int id);
 }

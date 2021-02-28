@@ -6,9 +6,9 @@ import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.PostMapping;
 import org.springframework.web.bind.annotation.RequestBody;
 
-@FeignClient(name = "microservice-paiements", url = "localhost:9003")
+@FeignClient(name = "zuul-server")
 public interface MicroServicesPaiementProxy {
 
-    @PostMapping(value = "/paiement")
+    @PostMapping(value = "/microservice-paiement/paiement")
     ResponseEntity<PaiementBean> payerUneCommande(@RequestBody PaiementBean paiement);
 }

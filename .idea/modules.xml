@@ -10,6 +10,7 @@
       <module fileurl="file://$PROJECT_DIR$/microservice-paiement/mpaiement.iml" filepath="$PROJECT_DIR$/microservice-paiement/mpaiement.iml" />
       <module fileurl="file://$PROJECT_DIR$/microservice-produits/mproduits.iml" filepath="$PROJECT_DIR$/microservice-produits/mproduits.iml" />
       <module fileurl="file://$PROJECT_DIR$/server-config-repo/server-config-repo.iml" filepath="$PROJECT_DIR$/server-config-repo/server-config-repo.iml" />
+      <module fileurl="file://$PROJECT_DIR$/zuul-api-gateway/zuul-api-gateway.iml" filepath="$PROJECT_DIR$/zuul-api-gateway/zuul-api-gateway.iml" />
     </modules>
   </component>
 </project>
